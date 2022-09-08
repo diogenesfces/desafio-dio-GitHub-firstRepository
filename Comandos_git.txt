@@ -1,0 +1,50 @@
+Comandos Git
+
+Dir:
+Lista as pastas do disco C
+
+Cd /
+Depois cd + o nome do local te redirecionará para a pasta desejada
+Para retroceder o mesmo caminho use o comando cd ..
+Adicionando -a a plataforma mostra arquivos ocutos
+
+Cls limpar a tela
+Utilize cd + tab por exemplo para completar nomes de arquivos
+
+Mkdir comando para criar uma pasta
+
+Mv + nome arquivo espaço local move o arquivo para o respectivo local
+
+Echo comando para passar uma mensagem
+Exemplo echo  > hello.txt criará um arquivo dentro de uma pasta
+Del + nome pasta comando para deletar arquivos da pasta
+
+Rmdir S/ Q/ deleta tanto a pasta quanto todos os arquivos armazenados nela
+
+Gerar chave GITBASH:
+Ssh-keygen -t ed25519 -c e-mail
+
+Git init
+Git add
+Git commit
+Git status
+Git config --list traz configuração do seu git
+Git config --global --unset user.email alterar configuração
+
+Adicionar url do projeto do git
+Git remote add origin + url
+Git remote -v lista as urls cadastradas
+
+
+Para resolver problemas de versões conflitadas use:
+Git pull origin master
+
+Ordem de inserção de código:
+Add-> commit-> push
+
+Para clonar um código do git use:
+Git clone + url
+
+
+## Links úteis
+[Sintaxe Markdown](https://www.markdownguide.org/extended-syntax/)
